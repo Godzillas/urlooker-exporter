@@ -1,0 +1,1 @@
+[{"domain": "pty.moneycallflash.com", "port": 80, "tables": "ProDomainMonitor", "target": "http://www.google.com/gen_204", "region": "", "uri": "/gen_204", "project": "google", "timeout": 3000, "sid": 193, "scheme": "http", "expect_code": "204"}]

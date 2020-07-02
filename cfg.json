@@ -1,0 +1,18 @@
+{
+    "debug": false,
+    "instanceRegion": "lan,cn-shenzhen&regcount=0",
+    "geturladdrs": "http://itsm.domain.cn/devapi/all_url/v2/",
+    "worker": 1000,
+    "cacheFile": "all_url.data",
+    "cacheTimeSec": "60",
+    "dnsServer": "202.96.128.86:53",
+    "listenPort": "0.0.0.0:8083",
+    "web": {
+        "reportaddrs": "http://es:9200",
+        "index": "logstash-urlooker",
+        "type": "checkResult",
+        "interval": 30,
+        "timeout": 1000
+    }
+}
+
